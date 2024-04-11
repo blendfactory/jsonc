@@ -1,0 +1,25 @@
+name: Check Prettier
+
+on:
+  pull_request:
+    paths:
+      - "**.json"
+      - "**.jsonc"
+      - "**.md"
+      - "**.yaml"
+
+jobs:
+  prettier:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633 # v4.1.2
+        with:
+          # Make sure the actual branch is checked out when running on pull requests
+          ref: ${{ github.head_ref }}
+
+      - name: Prettify code
+        uses: creyD/prettier_action@31355f8eef017f8aeba2e0bc09d8502b13dbbad1 # v4.3
+        with:
+          prettier_options: --write **/*.{json,jsonc,md,yaml}
