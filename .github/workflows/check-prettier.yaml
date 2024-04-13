@@ -6,7 +6,7 @@ on:
       - "**.json"
       - "**.jsonc"
       - "**.md"
-      - "**.yaml"
+      - '**.yaml'
 
 jobs:
   prettier:
