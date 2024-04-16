@@ -1,4 +1,5 @@
 name: jsonc_workspace
+publish_to: none
 
 environment:
   sdk: ^3.3.3
