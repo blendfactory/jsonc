@@ -1,0 +1,11 @@
+name: jsonc_parser
+description: A lightweight library designed to parse JSONC (JSON with comments) files, ensuring compatibility and ease of configuration for developers.
+version: 1.0.0
+repository: https://github.com/blendfactory/jsonc
+
+environment:
+  sdk: ^3.3.3
+
+dev_dependencies:
+  test: ^1.24.0
+  yumemi_lints: ^1.7.0

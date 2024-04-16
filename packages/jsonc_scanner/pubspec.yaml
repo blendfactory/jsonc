@@ -1,0 +1,11 @@
+name: jsonc_scanner
+description: Efficiently scans and tokenizes JSONC files, providing robust tools for developers to handle JSON with embedded comments.
+version: 1.0.0
+repository: https://github.com/blendfactory/jsonc
+
+environment:
+  sdk: ^3.3.3
+
+dev_dependencies:
+  test: ^1.24.0
+  yumemi_lints: ^1.7.0

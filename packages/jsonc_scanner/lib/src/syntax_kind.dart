@@ -1,0 +1,20 @@
+enum SyntaxKind {
+  openBraceToken,
+  closeBraceToken,
+  openBracketToken,
+  closeBracketToken,
+  commaToken,
+  colonToken,
+  nullKeyword,
+  trueKeyword,
+  falseKeyword,
+  stringLiteral,
+  numericLiteral,
+  lineCommentTrivia,
+  blockCommentTrivia,
+  lineBreakTrivia,
+  trivia,
+  unknown,
+  eof,
+  ;
+}
