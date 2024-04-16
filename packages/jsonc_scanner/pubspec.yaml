@@ -1,5 +1,5 @@
 name: jsonc_scanner
-description: A starting point for Dart libraries or applications.
+description: Efficiently scans and tokenizes JSONC files, providing robust tools for developers to handle JSON with embedded comments.
 version: 1.0.0
 repository: https://github.com/blendfactory/jsonc
 
