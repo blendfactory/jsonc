@@ -1,4 +1,4 @@
-name: jsonc_parser
+name: jsonc
 sdkPath: .dvm/dart_sdk
 
 packages:

@@ -1,4 +1,4 @@
-name: jsonc_parser_workspace
+name: jsonc_workspace
 
 environment:
   sdk: ^3.3.3
