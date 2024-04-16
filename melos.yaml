@@ -8,6 +8,8 @@ command:
   bootstrap:
     environment:
       sdk: ^3.3.3
+    dev_dependencies:
+      yumemi_lints: ^1.7.0
 
 ide:
   intellij:
