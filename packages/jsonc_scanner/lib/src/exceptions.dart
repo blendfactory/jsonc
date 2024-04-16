@@ -3,6 +3,7 @@ sealed class ScanException implements Exception {
 
   final String message;
 
+  @override
   String toString() => "ScanException: $message";
 }
 
