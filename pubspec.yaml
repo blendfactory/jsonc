@@ -6,4 +6,3 @@ environment:
 
 dev_dependencies:
   melos: ^5.3.0
-  yumemi_lints: ^1.7.0
