@@ -3,6 +3,7 @@
         "yumemi"
     ],
     "ignorePaths": [
-        "**.lock"
+        "**.lock",
+        "analysis_options.yaml"
     ]
 }
